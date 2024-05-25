@@ -1,5 +1,4 @@
-if _name_ == '_main_':
+if __name__ == '__main__':
     a = int(input())
     b = int(input())
-    print(a//b)
-    print(a/b)
+print(f"{a//b}\n{a/b}")
